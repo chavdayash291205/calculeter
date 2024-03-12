@@ -1,0 +1,64 @@
+.table
+{
+
+    margin-top: 300px;
+    margin-left: 350px;
+    margin-right: 600px;
+    border: solid black;
+    border-radius: 5px;
+}
+.all
+{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+}
+.result
+{
+    background-color: #ffffff;
+    border:black solid;
+    color: white;
+    padding: 15px 16px;
+    font-size: 16px;
+    color: black;  
+    text-align: center;
+}
+.dot{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 13.5px 34px;
+    font-size: 18px;
+    text-align: center;   
+}
+.equl{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 30.5px;
+    font-size: 16px;
+}
+.plush{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.mines{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 33px;
+    font-size: 16px;
+}
+.mul{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 31px;
+    font-size: 16px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <table class="table">
+        <tr>
+            <td>
+                <input type="text" id="result" class="result">
+    
+
+                <button onclick="clearScreen()" class="all">c</button>          
+              </td>
+        </tr>
+        <tr>
+            <td>
+               <button onclick="diplay('1')" class="all">1</button>
+               <button onclick="diplay('2')"  class="all">2</button>
+               <button onclick="diplay('3')"  class="all">3</button>
+               <button onclick="diplay('/')" class="all">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <button onclick="diplay('4')"  class="all">4</button>
+               <button onclick="diplay('5')"  class="all">5</button>
+               <button onclick="diplay('6')"  class="all">6</button>
+        
+    
+               <button onclick="diplay('*')"class="mul">*</button>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="diplay('7')"  class="all">7</button>
+                <button onclick="diplay('8')"  class="all">8</button>
+                <button onclick="diplay('9')"  class="all">9</button>
+                <button onclick="diplay('-')"class="mines">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="diplay('0')"  class="all">0</button>
+               <button  onclick="diplay('.')" class="dot">.</button>
+               <button onclick="solve()" class="equl">=</button>
+               <button onclick="diplay('+')" class="plush" >+</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
